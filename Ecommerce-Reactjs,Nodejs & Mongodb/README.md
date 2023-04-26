@@ -1,8 +1,5 @@
-# react-complete-e-commerce
+# React-Complete-E-commerce
 
-## Repository for my react-complete-e-commerce project
-
-Find out how to build a complete e-commerce platform. Author Melvin Kisten tackles CRUD functions and connects the system to a database of MongoDB (Document database). Created a full-stack platform using JavaScript. The frontend was created using React and the backend was created using NodeJS, Express, MongoDB. Then I used Axios and Redux to link my backend with my frontend. I also used Postman to test my end points. 
 
 1. Methodologies/Project Management:
 
@@ -23,49 +20,12 @@ Find out how to build a complete e-commerce platform. Author Melvin Kisten tackl
    - Postman
    - Axios
 
-## Live Demo
 
-- [react-complete-e-commerce](https://react-complete-e-commerce.herokuapp.com/ "react-complete-e-commerce")
 
 ### Home Page
 
 ![Home Page](screenshots/home.png 'Home Page')
 
-### Search Page
-
-![Search Page](screenshots/search.png 'Search Page')
-
-### Product Page
-
-![Product Page](screenshots/product-screen.png 'Product Page')
-
-### Cart Page
-
-![Cart Page](screenshots/cart.png 'Cart Page')
-
-### Place Order Page
-
-![Place Order Page](screenshots/place-order.png 'Place Order Page')
-
-### Make Payment Page
-
-![Make Payment Page](screenshots/make-payment.png 'Make Payment Page')
-
-### My Order Page
-
-![My Order Page](screenshots/my-order-screen.png 'My Order Page')
-
-### Admin Users Page
-
-![Admin Users Page](screenshots/admin-users.png 'Admin Users Page')
-
-### Admin Products Page
-
-![Admin Products Page](screenshots/admin-products.png 'Admin Products Page')
-
-### Admin Orders Page
-
-![Admin Orders Page](screenshots/admin-orders.png 'Admin Orders Page')
 
 ## Instructions
 
@@ -137,7 +97,7 @@ Find out how to build a complete e-commerce platform. Author Melvin Kisten tackl
 1. Make sure you have created accounts at
 
    - [MongoDB Atlas](https://www.mongodb.com/cloud/atlas/register "MongoDB Atlas")
-   - [Heroku](https://signup.heroku.com/login "Heroku")
+
 
 2. Then follow ALL step by step
 
@@ -156,104 +116,4 @@ Find out how to build a complete e-commerce platform. Author Melvin Kisten tackl
    > npm run data:import
    ```
 
-   Heroku:
-
-   Installing Heroku using npm globally
-
-   ```
-   > npm install -g heroku
-   ```
-
-   Logging into Heroku
-
-   ```
-   > heroku login
-   ```
-
-   Creating a heroku app
-
-   ```
-   > heroku create
-   ```
-
-   Create .gitignore file
-   Add this
-
-   ONLY in entire file
-
-   ```
-   ## Dependency directories
-   node_modules/
-   ```
-
-   OR
-
-   ```
-   Remove 'dist' and 'build' from .gitignore file
-   ```
-
-   ```
-   > git init
-   ```
-
-   ```
-   > heroku git:remote -a <app name>
-   ```
-
-   ```
-   > git add .
-   ```
-
-   ```
-   > git commit -am "initial commit"
-   ```
-
-   ```
-   > git push heroku master
-   ```
-   ```
-
-   OR
-
-   ```   
-   ```
-   > git push --set-upstream heroku master
-   ```
-   ```
-
-   OR
-
-   ```   
-   ```
-   > git push heroku
-   ```
-
-   Setting environment variables
-
-   ```
-   > heroku config:set NODE_ENV=production -a <app name>
-   ```
-
-   ```
-   > heroku config:set PORT=<> -a <app name>
-   ```
-
-   ```
-   > heroku config:set MONGO_URI='<entire_uri+password>' -a <app name>
-   ```
-
-   ```
-   > heroku config:set JWT_SECRET='<secret>' -a <app name>
-   ```
-
-   ```
-   > heroku config:set PAYPAL_CLIENT_ID='<id>' -a <app name>
-   ```
-
-   ```
-   > heroku ps:scale web=1
-   ```
-
-## More Stuff
-
-Check out some other stuff on [Melvin K](https://github.com/iammelvink "Melvin K GitHub page").
+ 
